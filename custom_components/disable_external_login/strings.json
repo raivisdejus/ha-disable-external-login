@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Disable external login",
+        "description": "Block login attempts from outside your local network. Existing sessions continue to work from any location.",
+        "data": {
+          "enabled": "Enable external login blocking",
+          "local_networks": "Local networks (one CIDR per line, e.g. 127.0.0.0/8)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This integration is already configured."
+    },
+    "error": {
+      "invalid_cidr": "One or more CIDR entries are invalid."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Disable external login options",
+        "data": {
+          "enabled": "Enable external login blocking",
+          "local_networks": "Local networks (one CIDR per line, e.g. 127.0.0.0/8)"
+        }
+      }
+    },
+    "error": {
+      "invalid_cidr": "One or more CIDR entries are invalid."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Bloķēt ārējo pieteikšanos",
+        "description": "Bloķēt pieteikšanās mēģinājumus no ārējiem tīkliem. Esošās sesijas turpina darboties no jebkuras atrašanās vietas.",
+        "data": {
+          "enabled": "Bloķēt ārējo pieteikšanos",
+          "local_networks": "Lokālie tīkli (viens CIDR ieraksts, piem., 127.0.0.0/8)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Šī integrācija jau ir konfigurēta."
+    },
+    "error": {
+      "invalid_cidr": "Viens vai vairāki CIDR ieraksti nav derīgi."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Ārējās pieteikšanās bloķēšanas iestatījumi",
+        "data": {
+          "enabled": "Bloķēt ārējo pieteikšanos",
+          "local_networks": "Lokālie tīkli (viens CIDR ieraksts, piem., 127.0.0.0/8)"
+        }
+      }
+    },
+    "error": {
+      "invalid_cidr": "Viens vai vairāki CIDR ieraksti nav derīgi."
+    }
+  }
+}
