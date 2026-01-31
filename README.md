@@ -2,6 +2,8 @@
 
 A Home Assistant custom integration that blocks login attempts from external networks while allowing existing authenticated sessions to work from any location.
 
+Easier than VPN or Cloud Flare tunnel. Install, enable and it will work for your whole family!
+
 ## What it does
 
 - Blocks new login attempts (`/auth/login_flow`, `/auth/authorize`) from IP addresses outside your configured local networks
