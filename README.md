@@ -21,8 +21,9 @@ A Home Assistant custom integration that blocks login attempts from external net
 1. Open HACS in your Home Assistant instance
 2. Click the three dots in the top right corner and select **Custom repositories**
 3. Add `https://github.com/raivisdejus/ha-disable-external-login` with category **Integration**
-4. Click **Install**
-5. Restart Home Assistant
+4. Search for **Disable External Login** in the list of available repositories on HACS
+5. Click **Download**
+6. Restart Home Assistant
 
 ### Manual
 
