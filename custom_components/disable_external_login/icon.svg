@@ -1,0 +1,40 @@
+<svg width="256" height="256" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Globe gradient -->
+    <radialGradient id="globeGrad4" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#f5faff"/>
+      <stop offset="100%" style="stop-color:#bbdefb"/>
+    </radialGradient>
+    <!-- Shield gradient -->
+    <linearGradient id="shieldB4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a6fa5"/>
+      <stop offset="50%" style="stop-color:#345280"/>
+      <stop offset="100%" style="stop-color:#1a3050"/>
+    </linearGradient>
+    <!-- Subtle shadow -->
+    <filter id="shadow4" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <!-- Large globe with gradient -->
+  <circle cx="32" cy="30" r="29" fill="url(#globeGrad4)"/>
+  <circle cx="32" cy="30" r="29" stroke="#90caf9" stroke-width="1.5" fill="none"/>
+  <!-- Globe grid - refined -->
+  <ellipse cx="32" cy="30" rx="11" ry="29" stroke="#64b5f6" stroke-width="1" fill="none"/>
+  <ellipse cx="32" cy="30" rx="21" ry="29" stroke="#90caf9" stroke-width="0.6" fill="none"/>
+  <line x1="3" y1="30" x2="61" y2="30" stroke="#64b5f6" stroke-width="1"/>
+  <ellipse cx="32" cy="17" rx="26" ry="4" stroke="#90caf9" stroke-width="0.6" fill="none"/>
+  <ellipse cx="32" cy="43" rx="26" ry="4" stroke="#90caf9" stroke-width="0.6" fill="none"/>
+  <!-- Compact shield with better gradient -->
+  <path d="M32 14L17 21v11c0 9 6.5 17 15 20 8.5-3 15-11 15-20V21L32 14z" fill="url(#shieldB4)" filter="url(#shadow4)"/>
+  <!-- Shield highlight -->
+  <path d="M32 16L19 22v3c5-1 10-1.5 13-1.5s8 0.5 13 1.5v-3L32 16z" fill="#5a7fb0" opacity="0.5"/>
+  <!-- Prohibition symbol -->
+  <circle cx="32" cy="32" r="9.5" stroke="#ef5350" stroke-width="4" fill="none"/>
+  <line x1="25.3" y1="38.7" x2="38.7" y2="25.3" stroke="#ef5350" stroke-width="4" stroke-linecap="round"/>
+  <!-- Lock badge with subtle gradient -->
+  <circle cx="52" cy="52" r="10" fill="#fff" stroke="#64b5f6" stroke-width="1.5"/>
+  <rect x="47" y="51" width="10" height="7.5" rx="1.2" fill="#345280"/>
+  <path d="M49 51v-2a3 3 0 016 0v2" stroke="#345280" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <circle cx="52" cy="55" r="1" fill="#90caf9"/>
+</svg>
