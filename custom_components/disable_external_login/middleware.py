@@ -90,8 +90,7 @@ BLOCKED_HTML = """<!DOCTYPE html>
     </svg>
   </div>
   <h1>Access denied</h1>
-  <p>Login from external networks is not allowed on this
-     Home Assistant instance.</p>
+  <p>Login from external networks is not allowed.</p>
   <p class="hint">Connect from your local network to sign in.</p>
 </div>
 </body>
