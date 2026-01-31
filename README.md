@@ -61,3 +61,7 @@ The integration installs an aiohttp middleware into the Home Assistant HTTP serv
 
 - Home Assistant 2024.1.0 or newer
 - Trusted proxies must be correctly configured in `configuration.yaml` if running behind a reverse proxy, so that `request.remote` reflects the real client IP
+
+---
+
+Made with Claude Code. If you find this integration useful, please star the repository 🌟
