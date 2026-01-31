@@ -1,10 +1,11 @@
 {
   "domain": "disable_external_login",
   "name": "Disable External Login",
-  "codeowners": [],
+  "codeowners": ["@raivisdejus"],
   "dependencies": ["http"],
   "after_dependencies": ["auth"],
-  "documentation": "",
+  "documentation": "https://github.com/raivisdejus/ha-disable-external-login",
+  "issue_tracker": "https://github.com/raivisdejus/ha-disable-external-login/issues",
   "iot_class": "local_push",
   "version": "1.0.0",
   "config_flow": true
